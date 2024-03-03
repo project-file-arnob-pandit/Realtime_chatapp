@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#bg:hover span{
+    display: block;
+}
+
+::-webkit-scrollbar{
+    width: 4px;
+      
+}
+::-webkit-scrollbar-thumb{
+    background: gainsboro;
+    cursor: pointer;
+
+}
+.imgshare:hover span{
+    display: block;
+}
+.imgset{
+    max-inline-size: 100%;
+    block-size: auto;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+}
